@@ -1,0 +1,19 @@
+The structure of your code and dataset so that the TA can easily navigate your project.
+
+In first few sections, we just read the data, visualize a few voices, pre-process and trim it, the visualize again to show our trimming worked. 
+Please note that the audio files should be located in the same folder as Jupyter notebook and they are just called the phrase's name.
+No other sub-folder is there. 
+In the sections after we first run the numerical features code with SVM and Decision Trees, produce scoring and confusion matrices.
+In last few sections we run the 13 feature MFCC code with SVM and produce scoring and confusion matrix.
+
+
+A self-evaluation of your project with respect to your proposal. This is more of a subjective reflection on your project, compared to the scientific report deliverable. Did you do all that you said you would in the proposal? Did you make any changes compared to what you planned to do? 
+
+Pretty much yes. I think we managed to achieve most parts of our vision of how this project should have been gone through. 
+One of the cool parts is that one person in our group created a model and another person created another model and we were able to compare these models.
+One are that we really tried our best but didn't work out was getting automated voice data from YouTube which was not successful. Even we tried YouGlish's javascript API but they would not allow us to download the data.
+So that was a big concern because now we had to spend a lot of time annotating our own data and we knew based on intuition the amount of data was not going to be nearly enough.
+However, this gave us an edge in that we knew we did 0 to 100 of this project by ourselves and we are proud of that!
+Another area was selecting voice features like how do you actually find features that work for the voice data you have, and how do you find the best machine learning corresponding to that?
+This stresses me out a lot because it shows that I still do not understand how the voice data works, what the features represent actually, and what is the significane of using an ML model instead of another. 
+   
